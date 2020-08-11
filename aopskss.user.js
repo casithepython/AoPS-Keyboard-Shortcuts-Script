@@ -13,7 +13,7 @@
 function feedKeyPress(e) {
 
     // this would test for whichever key is 40 and the ctrl key at the same time
-    if (e.ctrlKey && e.altKey && e.keyCode == 82) {
+    if (e.keyCode == 82) {
         // call your function to do the thing
         if ($("#feed-wrapper").hasClass("feed-open")) {
             $("#feed-topic > div > div.cmty-topic-posts-outer-wrapper > div > div.aops-scroll-inner > div > div.cmty-topic-posts-bottom > div").click()
